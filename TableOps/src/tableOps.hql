@@ -42,3 +42,7 @@ DESCRIBE companyDB.employee Salary;
 
 -- Get formatted metadata listing
 DESCRIBE FORMATTED companyDB.employee;
+
+-- Drop table
+DROP TABLE companyDB.employee;
+DROP TABLE IF EXISTS companyDB.employee;
